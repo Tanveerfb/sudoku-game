@@ -1,0 +1,17 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Sudoku" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - link "Leaderboard" [ref=e5] [cursor=pointer]:
+        - /url: /leaderboard
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "← Back" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - button "← Back" [ref=e10]
+        - heading "Leaderboard" [level=1] [ref=e11]
+      - paragraph [ref=e12]: No completed games yet. Finish a puzzle to see your best times here!
+  - button "Open Next.js Dev Tools" [ref=e18] [cursor=pointer]:
+    - img [ref=e19]

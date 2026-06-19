@@ -1,0 +1,68 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Sudoku" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - link "Leaderboard" [ref=e5] [cursor=pointer]:
+        - /url: /leaderboard
+  - main [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - combobox [ref=e10]:
+            - generic [ref=e11]: easy
+            - img: ▼
+          - textbox [ref=e12]: easy
+          - button "New Game" [ref=e13]
+          - button "Rules" [ref=e14]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - img [ref=e17]
+            - img [ref=e19]
+            - img [ref=e21]
+            - generic [ref=e23]: 0/3
+          - button "5" [disabled] [ref=e24]:
+            - img [ref=e25]
+            - generic [ref=e27]: "5"
+          - generic [ref=e28]:
+            - img [ref=e29]
+            - text: 00:00
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - button "1 9" [disabled] [ref=e117]:
+            - generic [ref=e118]: "1"
+            - generic [ref=e119]: "9"
+          - button "2 9" [disabled] [ref=e120]:
+            - generic [ref=e121]: "2"
+            - generic [ref=e122]: "9"
+          - button "3 9" [disabled] [ref=e123]:
+            - generic [ref=e124]: "3"
+            - generic [ref=e125]: "9"
+          - button "4 9" [disabled] [ref=e126]:
+            - generic [ref=e127]: "4"
+            - generic [ref=e128]: "9"
+          - button "5 9" [disabled] [ref=e129]:
+            - generic [ref=e130]: "5"
+            - generic [ref=e131]: "9"
+          - button "6 9" [disabled] [ref=e132]:
+            - generic [ref=e133]: "6"
+            - generic [ref=e134]: "9"
+          - button "7 9" [disabled] [ref=e135]:
+            - generic [ref=e136]: "7"
+            - generic [ref=e137]: "9"
+          - button "8 9" [disabled] [ref=e138]:
+            - generic [ref=e139]: "8"
+            - generic [ref=e140]: "9"
+          - button "9 9" [disabled] [ref=e141]:
+            - generic [ref=e142]: "9"
+            - generic [ref=e143]: "9"
+        - generic [ref=e144]:
+          - button "Erase" [disabled]:
+            - img
+            - text: Erase
+          - button "Notes (Off)" [disabled]:
+            - img
+            - text: Notes (Off)
+      - paragraph [ref=e145]: Arrow keys to move • 1–9 to enter • Delete to erase • N for notes
+  - button "Open Next.js Dev Tools" [ref=e151] [cursor=pointer]:
+    - img [ref=e152]
